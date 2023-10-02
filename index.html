@@ -1,60 +1,167 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <head>
+        <meta charset="utf-8"/>
+        <title> 613 Yoga Studio </title>
+        <meta name="viewport" content="width=decive-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    </head>
+    <body>
+     <header>
+     <h2> Harmony & Balance </h2>
+     <img src="./Logo.jpg" width= 200 alt="Logo"/>
+      <nav>
+     <h3> Site Navigation</h3>
+        <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+        </nav>
+     </header>
+        <main>
+            <h1> Welcome to" 613 Yoga Studio"</h1>
+            <img 
+            src="./Yoga.jpg" width = 500 height=200
+            alt="Yoga" />
+            <section>
+                <h2> Our philosophy</h2>
+                <blockquote>
+               <p>
+                    “Yoga is not a work-out, it is a work-in.
+                     And this is the point of spiritual practice; 
+                     to make us teachable; to open up our hearts and focus our awareness so that we can know what we already 
+                    know and be who we already are.” — Rolf Gates
+                    
+            
+                </p>
+               </blockquote>
+                </section>
+                <p>
+                    We provide a soothing space where you can explore many approaches to reaching the same outcome: creating ease in your life. We encourage you to be curious, relax, 
+                    and take your time so you can leave feeling renewed.
+                </p>
+                <p> The benefits of a regular yoga practice can include greater strength and mobility,
+                     stress-reduction, and improved posture. It reduces the risk of heart disease and joint pain, and improves mental health and clarity. It includes a sense of camaraderie and connection with other students and your favourite teachers. A regular practice can make you a happier and healthier person.</p>
+                <p>
+                    <strong> up for our newsletter to receive news about upcoming events,
+                        trainings, special offers, wellness tips and more! </strong>
+                </p>
+                <form action="/server-page-handling-form-data" method="post">
+                    <ul>
+                      <li>
+                        <label for="fullname">Name:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Haneen Dwaier"/>
+                      </li>
+                      <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="haneen.dwaier@gmail.com"/>
+                       </li>
+                       <li><button type="submit">Submit</button></li>
+                    </ul>
+                </form>
+           
+                </section>    
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+         
+         <table>
+            <caption>
+                <h3>Classes & packages</h3> </caption>
+            <thead>
+                <tr>
+                    <th>Classes</th>
+                    <th> packages </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Virtual class </td>
+                    <td> $16.95 </td>
+                </tr>
+                <tr>
+                    <td> in-person class </td>
+                    <td> $33</td>
+                </tr>
+                <tr>
+                    <td>10 class package </td>
+                    <td>$240
+                    </td>
+                </tr>
+                <tr>
+                    <td>20 class package </td>
+                    <td>$385</td>
+                </tr>
+                <tr>
+                    <td>30 day unlimited intro </td>
+                    <td> $70</td>
+                </tr>
+                <tr>
+                    <td>unlimited-1 month</td>
+                    <td>$225</td>
+                </tr>
+                <tr>
+                    <td>unlimited- annual</td>
+                    <td>$1,695</td>
+                </tr>
+            
+            </tbody>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+         </table>
+         <h4> Contact Form :</h4>
+         <form action="/server-page-handling-form-data" method="post">
+            <ul>
+              <li>
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Haneen Dwaier"/>
+              </li>
 
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
-    <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1.6;
-      }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <!--
-
-      LIST ANY CITATIONS HERE
-
-        * A
-        * B
-
-    -->
-
-    <!--
-
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
-
-    -->
-
-    <h1>Assignment 01 - To Be Completed</h1>
-  </body>
+              <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="haneen.dwaier@gmail.com"/>
+              </li>
+              <li>
+                <label for=phone number >Phone number:</label>
+                <input type="number" id="phone number" name="phone number" placeholder="613-222-8899"/>
+              </li>
+              <li>
+                <label for="urgency">Urgency:</label>
+                <input type="range" id="urgency" name="urgency" />
+              </li>
+              <li>
+                <label for="Message">How can we help you ?</label>
+                <textarea id="messsage" rows="5"></textarea>
+              </li>
+              <li><button type="submit">Send</button></li>
+            </ul>
+          </form>
+        </main>
+        <footer>
+            <h2>Contact information</h2>
+            <p>info.613Studio.com</p>
+            <h3>Location</h3>
+             <p>900 Gladstone Avenue
+                Ottawa, Ontario
+                Canada K1Y 3E6 </p>
+            <h4> Hours </h4>
+            <ul>
+               <li>Monday: 9 am to 9 pm </li>
+               <li>Tuesday: 6:30 am to 9 pm </li>
+               <li>Wednesday: 6:30 am to 9 pm</li>
+               <li>Thursday: 6:30 am to 9 pm
+              </li>
+              <li>Friday: 9 am to 7 pm </li>
+              <li>Saturday: 9 am to 4 pm</li>
+              <li>Sunday: 9 am to 7 pm </li>
+            </ul>
+            <nav>
+              <h3>Site navigation</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </nav>
+            <p>&copy; 2021</p>
+        </footer>
+    </body>
 </html>
